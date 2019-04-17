@@ -93,6 +93,7 @@ Pod::Spec.new do |s|
 
   s.source_files  = "framework/SwiftOCR/*.swift", "framework/SwiftOCR/FFNN/*.swift" 
   s.swift_version = '4.0'
+  s.dependency "GPUImage"
 
   # s.public_header_files = "Classes/**/*.h"
 
